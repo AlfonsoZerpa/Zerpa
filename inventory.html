@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorcycle Haven - Inventory</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: url('./Pictures/motorbike-rider-motorcycle-racing-illustration-vector-black-background_498574-306.avif') no-repeat center center/cover;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #444;
+            padding: 0.5rem 1rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .inventory {
+            padding: 2rem;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .inventory h1 {
+            margin-bottom: 1rem;
+        }
+        .inventory-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            padding: 2rem;
+        }
+        .inventory-item {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .inventory-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .inventory-item h3 {
+            margin: 1rem 0;
+        }
+        .inventory-item p {
+            padding: 0 1rem;
+            margin-bottom: 1rem;
+        }
+        .footer {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Motorcycle Haven</h1>
+        <p>Explore Our Inventory</p>
+    </header>
+    <nav>
+        <div>
+            <a href="template.html">Home</a> <!-- Link back to the Home page -->
+            <a href="inventory.html">Brands</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <section class="inventory">
+        <h1>Our Motorcycle Brands</h1>
+        <div class="inventory-grid">
+            <div class="inventory-item">
+                <img src="./Pictures/yamaha-logo-yamaha-icon-transparent-free-png.webp" alt="Yamaha" style="transform: scale(0.9);">
+                <h3>Yamaha</h3>
+                <p>Explore the latest Yamaha motorcycles.</p>
+            </div>
+            <div class="inventory-item">
+                <img src="./Pictures/ducati.jpg" alt="Ducati">
+                <h3>Ducati</h3>
+                <p>Discover premium Ducati bikes.</p>
+            </div>
+            <div class="inventory-item">
+                <img src="./Pictures/aprilia.jpg" alt="Aprilia">
+                <h3>Aprilia</h3>
+                <p>Experience the thrill of Aprilia motorcycles.</p>
+            </div>
+            <div class="inventory-item">
+                <img src="./Pictures/bmw.jpg" alt="BMW">
+                <h3>BMW</h3>
+                <p>Luxury and performance with BMW bikes.</p>
+            </div>
+            <div class="inventory-item">
+                <img src="./Pictures/harley-davidson.jpg" alt="Harley-Davidson">
+                <h3>Harley-Davidson</h3>
+                <p>Iconic Harley-Davidson motorcycles.</p>
+            </div>
+            <div class="inventory-item">
+                <img src="./Pictures/honda.jpg" alt="Honda">
+                <h3>Honda</h3>
+                <p>Reliable and versatile Honda bikes.</p>
+            </div>
+            <div class="inventory-item">
+                <img src="./Pictures/kawasaki.jpg" alt="Kawasaki">
+                <h3>Kawasaki</h3>
+                <p>Powerful Kawasaki motorcycles.</p>
+            </div>
+            <div class="inventory-item">
+                <img src="./Pictures/kawasaki.jpg" alt="KTM">
+                <h3>KTM</h3>
+                <p>KTM motorcycles.</p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2025 Motorcycle Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>
